@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "O aplicatie CRUD care te ajuta sa tii evidenta cartilor dintr-o librarie sau biblioteca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorincz Marius-Laurentiu & Pitiriciu Iulian",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-jwt": "^5.3.3",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "lodash.flowright": "^3.5.0",
+    "mongoose": "^5.9.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0"
+  }
+}
